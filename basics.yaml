@@ -1,5 +1,6 @@
 - name : ping using playbook
   hosts : node
+  become : yes
   tasks :
   - name : ping to server
     ansible.builtin.ping:
