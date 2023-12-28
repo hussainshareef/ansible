@@ -1,5 +1,5 @@
 - name : ping using playbook
   hosts : web
   tasks :
-    - name : ping to server
-        ansible.bulitin.ping:
+  - name : ping to server
+    ansible.bulitin.ping:
