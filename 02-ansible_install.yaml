@@ -1,5 +1,5 @@
 - name : Installing and running nginx
-  hosts : web
+  hosts : node
   become : yes
   tasks :
     -name : Installing nginx
